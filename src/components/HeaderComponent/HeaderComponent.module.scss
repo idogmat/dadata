@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #1C1C1E;
+  @media only screen and (max-width: 425px) {
+    width: 70%;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+  }
+  &__content {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+  }
+}

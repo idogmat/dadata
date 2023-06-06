@@ -1,0 +1,50 @@
+.addressList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(2, 0, 97, 0.25);
+  border-radius: 10px;
+  &__header {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    position: relative;
+    &:after {
+      height: 1px;
+      width: 100%;
+      background-color: #D7D7D7;
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -16px;
+    }
+  }
+  &__content {
+    max-height: 48vh;
+    overflow: auto;
+  }
+}
+.item {
+  position: relative;
+  padding: 16px 0;
+  &:last-child{
+    padding-bottom: 20vh;
+  }
+  &:after {
+    height: 1px;
+    width: 100%;
+    background-color: #D7D7D7;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+  }
+  &__text {
+    font-weight: 500;
+    color:#000000;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

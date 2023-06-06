@@ -1,0 +1,36 @@
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  width: calc(300px - 64px);
+  height: 100vh;
+  gap: 32px;
+  padding: 24px 32px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 5px rgba(2, 0, 96, 0.25);
+  color: #1C1C1E;
+  transition: all .3s;
+
+  &__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.menuContainerClosed{
+  display: flex;
+  flex-direction: column;
+  width: calc(300px - 64px);
+  height: 100vh;
+  gap: 32px;
+  padding: 24px 32px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 5px rgba(2, 0, 96, 0.25);
+  color: #1C1C1E;
+  transform: translateX(-300px);
+  transition: all .3s;
+}

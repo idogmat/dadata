@@ -1,0 +1,40 @@
+.searchItem {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+
+  .input {
+    display: flex;
+    width: 80%;
+    padding: 23px 24px;
+    border-radius: 10px;
+    color: #6c6c6c;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    border: 3px solid #4F27BF;
+    outline: none;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  button {
+    @media only screen and (max-width: 600px) {
+      width: 80%;
+      box-sizing: border-box;
+    }
+
+  }
+}
+
+.wrongValue {
+  position: absolute;
+  color: red;
+  top: 235px;
+  right: 300px;
+  font-size: 20px;
+  font-weight: 600;
+}

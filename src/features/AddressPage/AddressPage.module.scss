@@ -1,0 +1,17 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  @media only screen and (max-width: 425px) {
+    width: 70%;
+  }
+}
+.closedMenu{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: calc(100% + 200px);
+  @media only screen and (max-width: 425px) {
+    width: calc(100% + 100px);
+  }
+}

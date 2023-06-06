@@ -1,0 +1,11 @@
+.router{
+  padding: 1rem;
+  width: 100%;
+  transition: all .3s;
+}
+.hideMenu{
+  padding: 1rem;
+  width: 100%;
+  transform: translateX(-200px);
+  transition: all .3s;
+}
